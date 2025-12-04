@@ -25,9 +25,14 @@ body {
     width: 50%;
     height: 100%;
 }
+.logo{
+    margin-bottom: 30px;
+}
 .pergunta{
+    margin-bottom: 30px;
     color: white;
 }
 .descricao{
+    margin-bottom: 30px;
     color: white;
 }
