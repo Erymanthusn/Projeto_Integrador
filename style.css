@@ -10,6 +10,7 @@ img {
 
 body {
     font-family: 'Inter', sans-serif;
+    background-color: antiquewhite;
 }
 
 .apresentacao {
@@ -21,18 +22,44 @@ body {
 }
 .parteEsquerda {
     padding: 20px;
-    background-color: rgb(36, 22, 99);
+    background-color: rgb(1, 1, 1);
     width: 50%;
     height: 100%;
+}
+.painelLogo {
+    height: 25px;
+    width: 110px;
+    background-color: blue;
+    margin-bottom: 30px;
+    border-radius: 10px;
 }
 .logo{
     margin-bottom: 30px;
 }
 .pergunta{
-    margin-bottom: 30px;
+    font-size: 42px;
+    margin-bottom: 50px;
     color: white;
 }
 .descricao{
     margin-bottom: 30px;
     color: white;
 }
+
+.linha1 {
+    background-color:greenyellow ;
+    height: 16px;
+    width: 420px;
+}
+.linha2 {
+    background-color:aqua ;
+    height: 16px;
+    width: 320px;
+}
+.sublinhado {
+    text-decoration: underline;
+    text-decoration-color:greenyellow;
+    text-decoration-style: solid; 
+    text-decoration-thickness: 5px; 
+    text-underline-offset: 2px; 
+  }
