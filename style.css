@@ -22,12 +22,12 @@ body {
 }
 .parteEsquerda {
     padding: 20px;
-    background-color: rgb(1, 1, 1);
+    background-color: rgb(18, 18, 18);
     width: 50%;
     height: 100%;
 }
 .painelLogo {
-    height: 25px;
+    height: 20px;
     width: 110px;
     background-color: blue;
     margin-bottom: 30px;
@@ -35,6 +35,7 @@ body {
 }
 .logo{
     margin-bottom: 30px;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
 }
 .pergunta{
     font-size: 42px;
@@ -44,6 +45,7 @@ body {
 .descricao{
     margin-bottom: 30px;
     color: white;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
 }
 
 .linha1 {
@@ -57,9 +59,76 @@ body {
     width: 320px;
 }
 .sublinhado {
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    color: white;
     text-decoration: underline;
     text-decoration-color:greenyellow;
     text-decoration-style: solid; 
     text-decoration-thickness: 5px; 
     text-underline-offset: 2px; 
-  }
+}
+.opcoes {
+    color:white;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--white-color);
+    padding: 20px 0;
+    width: 100%;
+}
+.parteDireita {
+    background-image: url(estacionamento.jpg);
+    background-size: cover;
+    background-position: bottom left;
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.inicio {
+    text-decoration: underline;
+    text-decoration-color:greenyellow;
+    text-decoration-style: solid; 
+    text-decoration-thickness: 5px; 
+    text-underline-offset: 2px; 
+}
+.sobre {
+    text-decoration: underline;
+    text-decoration-color:greenyellow;
+    text-decoration-style: solid; 
+    text-decoration-thickness: 5px; 
+    text-underline-offset: 2px; 
+}
+.contato {
+    text-decoration: underline;
+    text-decoration-color:greenyellow;
+    text-decoration-style: solid; 
+    text-decoration-thickness: 5px; 
+    text-underline-offset: 2px; 
+}
+.inicio :hover{
+    font-size: 43px;
+    text-decoration: underline;
+    text-decoration-color:aqua;
+    text-decoration-style: solid; 
+    text-decoration-thickness: 5px; 
+    text-underline-offset: 2px; 
+    transition: 2s;
+}
+.sobre :hover{
+    font-size: 43px;
+    text-decoration: underline;
+    text-decoration-color:aqua;
+    text-decoration-style: solid; 
+    text-decoration-thickness: 5px; 
+    text-underline-offset: 2px; 
+    transition: 2s;
+}
+.contato :hover{
+    font-size: 43px;
+    text-decoration: underline;
+    text-decoration-color:aqua;
+    text-decoration-style: solid; 
+    text-decoration-thickness: 5px; 
+    text-underline-offset: 2px; 
+    transition: 2s;
+}
