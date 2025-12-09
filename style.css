@@ -140,3 +140,11 @@ body {
     text-underline-offset: 2px; 
     transition: 2s;
 }
+.segundaParte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    margin: 0 auto;
+    max-width: 1500px;
+}
