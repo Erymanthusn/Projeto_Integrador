@@ -148,3 +148,12 @@ body {
     margin: 0 auto;
     max-width: 1500px;
 }
+.parteEsquerda2{
+    width: 310px;
+    height: 400px;
+    background-color:rgb(19, 19, 19);
+    padding: 40px 25px;
+}
+.texto2{
+    color: white;
+}
