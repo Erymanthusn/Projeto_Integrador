@@ -9,16 +9,23 @@ img {
 }
 
 body {
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 100vh;
+    margin: 0;
     font-family: 'Inter', sans-serif;
-    background-color: antiquewhite;
+    background-color: green;
 }
 
 .apresentacao {
     display: flex;
     flex-direction: row;
-    margin: 0;
+    margin: 0 auto;
     max-width: 1500px;
     height: 460px;
+    margin-top: 22px;
 }
 .parteEsquerda {
     padding: 20px;
@@ -38,11 +45,12 @@ body {
     text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
 }
 .pergunta{
-    font-size: 42px;
+    font-size: 50px;
     margin-bottom: 50px;
     color: white;
 }
 .descricao{
+    font-size: 23px;
     margin-bottom: 30px;
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
@@ -51,12 +59,12 @@ body {
 .linha1 {
     background-color:greenyellow ;
     height: 16px;
-    width: 420px;
+    width: 570px;
 }
 .linha2 {
     background-color:aqua ;
     height: 16px;
-    width: 320px;
+    width: 420px;
 }
 .sublinhado {
     text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
