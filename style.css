@@ -13,7 +13,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center;
-    height: 100vh;
+    height: 400vh;
     margin: 0;
     font-family: 'Inter', sans-serif;
     background-color: green;
@@ -160,4 +160,10 @@ body {
 }
 .sobre{
     margin-bottom: 20px;
+}
+.parteDireita2{
+    margin-left: 20px;
+    width: 340px;
+    height: 460px;
+    background: var(black);
 }
