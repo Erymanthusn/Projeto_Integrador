@@ -176,6 +176,8 @@ body {
     margin: 0 auto;
     max-width: 1500px;
 }
-.parteEsquerda3{
-
+.parteEsquerda3,
+.parteDireita3 {
+    width: 350px;
+    height: 460px;
 }
