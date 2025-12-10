@@ -165,5 +165,17 @@ body {
     margin-left: 20px;
     width: 340px;
     height: 460px;
-    background: var(black);
+    background: var(rgb(19, 19, 19));
+}
+.terceiraParte{
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+.parteEsquerda3{
+
 }
