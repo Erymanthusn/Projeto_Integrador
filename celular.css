@@ -26,5 +26,16 @@
         .linha2{
             width: 130px;
         }
+
+        .opcoes{
+            flex-direction: column;
+            justify-content: flex-start;
+            padding-top: 25px;
+            padding-left: 40px;
+        }
+
+        .opcoes h4 {
+            margin-bottom: 20px;
+        }
     
 }
