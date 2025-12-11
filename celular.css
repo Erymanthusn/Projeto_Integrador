@@ -37,5 +37,14 @@
         .opcoes h4 {
             margin-bottom: 20px;
         }
+
+    .segundaParte{
+        flex-direction: column;
+    }
+        .parteDireita2{
+            margin-left: 0;
+            margin-top: 30px;
+        }
+
     
 }
