@@ -185,3 +185,7 @@ body {
     background-image: url(estacionado.jpg);
     background-size: cover;
 }
+.parteDireita3{
+    background-color: rgb(49, 40, 40);
+    padding: 30px 25px;
+}
