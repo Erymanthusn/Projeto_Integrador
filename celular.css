@@ -10,7 +10,12 @@
         .parteDireita{
             width: 60%;
         }
-
+        .apresentacao h4 {
+            font-size: 15px;
+        }
+        .apresentacao h1 {
+            font-size: 25px;
+        }
         .logo {
             font-size: 25px;
         }
